@@ -29,11 +29,11 @@ h1{
 /* FINE Header */
 
 
-/* INIZIO Main */
+/* INIZIO Nav */
 
 .conteiner-nav{
   width: 800px;
-  height: 60px;
+  height: 75px;
   background-color: white;
   margin: auto;
   margin-top: 70px;
@@ -41,27 +41,78 @@ h1{
 }
 
 .conteiner-nav .add-task-button{
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
   background-color: rgba(48, 172, 255, 0.864);
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 7px;
+  margin-top: 20px;
   margin-left: 70px;
 }
 
 .conteiner-nav .add-task-button .add-task{
   font-size: 20px;
+  font-weight: 500;
   color: white;
   text-align: center;
-  line-height: 60px;
+  line-height: 40px;
   display: block;
+}
+
+.conteiner-nav .add-section-button{
+  width: 130px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.conteiner-nav .add-section-button .add-section{
+  font-size: 20px;
+  font-weight: 500;
+  color: lightgrey;
+  text-align: center;
+  line-height: 38px;
+  display: block;
+  border-radius: 7px;
+  border: 3px solid lightgrey;
+}
+/* FINE Nav */
+
+
+/* INIZIO Main */
+
+main{
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  color: rgb(75, 75, 75);
+}
+
+.conteiner.new-task{
+  margin-top: 4px;
+  padding-top: 40px;
+}
+
+.conteiner{
+  margin-left: 70px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+p{
+  font-size: 25px;
 }
 
 
 
+
+
+
+
+
+
+
 /* FINE Main */
-
-
-
-
-
