@@ -32,7 +32,7 @@ h1{
 /* INIZIO Nav */
 
 .conteiner-nav{
-  width: 800px;
+  width: 1000px;
   height: 75px;
   background-color: white;
   margin: auto;
@@ -83,7 +83,7 @@ h1{
 /* INIZIO Main */
 
 main{
-  width: 800px;
+  width: 1000px;
   background-color: white;
   margin: auto;
   color: rgb(75, 75, 75);
@@ -94,13 +94,14 @@ main{
   padding-top: 40px;
 }
 
-.today, .upcoming{
+.conteiner.today, .conteiner.upcoming{
   margin-top: 25px;
 }
 
-.upcoming{
+.conteiner.upcoming{
   padding-bottom: 80px;
 }
+
 .conteiner{
   margin-left: 70px;
 }
@@ -111,27 +112,61 @@ h2{
 
 p{
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 25px;
+  font-weight: 600;
 }
 
+/* INIZIO Modifiche al Check, Cross, triangle */
 .check{
   color: rgb(30, 194, 30);
   font-weight: 600;
+  margin-right: 15px;
 }
 
 .cross{
   color: red;
   font-weight: 600;
+  margin-right: 15px;
 }
 
 .triangle{
   font-size: 30px;
 }
+/* FINE Modifiche al Check, Cross, triangle */
 
+/* INIZIO Modifiche alle caselle colorate */
 
+.editorial, .q1-goals, .recruiting, .mobile, .website, .sales{
+  color: white;
+  font-size: 17px;
+  padding: 10px 18px;
+  border-radius: 18px;
+}
 
+.editorial{
+  background-color: rgb(105, 175, 255);
+}
 
+.q1-goals{
+  background-color: rgb(175, 86, 235);
+}
 
+.recruiting{
+  background-color: rgb(112, 197, 140);
+}
+
+.mobile{
+  background-color: rgb(241, 165, 65);
+}
+
+.website{
+  background-color: rgb(245, 125, 215);
+}
+
+.sales{
+  background-color: rgb(132, 212, 3);
+}
+/* FINE Modifiche alle caselle colorate */
 
 
 /* FINE Main */
