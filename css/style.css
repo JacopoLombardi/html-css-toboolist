@@ -94,6 +94,13 @@ main{
   padding-top: 40px;
 }
 
+.today, .upcoming{
+  margin-top: 25px;
+}
+
+.upcoming{
+  padding-bottom: 80px;
+}
 .conteiner{
   margin-left: 70px;
 }
@@ -104,10 +111,22 @@ h2{
 
 p{
   font-size: 25px;
+  margin-top: 15px;
 }
 
+.check{
+  color: rgb(30, 194, 30);
+  font-weight: 600;
+}
 
+.cross{
+  color: red;
+  font-weight: 600;
+}
 
+.triangle{
+  font-size: 30px;
+}
 
 
 
