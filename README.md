@@ -1,3 +1,3 @@
 Toboolist
 ===
-Quarto Es di Boolean
+Ricreiamo una TodoList seguendo il layout in allegato.
